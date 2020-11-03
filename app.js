@@ -10,9 +10,7 @@ const colors = [
 
 const changeColor = function(){
   const h1 = document.querySelector('h1');
-
-  console.log(this);
-  console.log(this.style.backgroundColor);
+  h1.style.color = this.style.backgroundColor;
 };
 const container = document.querySelector('#boxes');
 
